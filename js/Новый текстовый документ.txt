@@ -1,0 +1,16 @@
+function natija() {
+	var a = document.getElementById('docx').value;
+	var b = document.getElementById('excel').value;
+	var c = document.getElementById('css2').value;
+	var correct = 0;
+	if (a == "docx") {
+		correct++;
+	}
+	if (b == "excel") {
+		correct++;
+	}
+	if (c == "css") {
+		correct++;
+	}
+	document.getElementById('ntj').innerHTML = 'sizning yeggan balingiz: ' + correct;
+}
